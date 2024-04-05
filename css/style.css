@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Averia+Sans+Libre&display=swap");
+
+* {
+  font-weight: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 20px;
+  height: 30px;
+}
+
+.nav-item {
+  background-color: #6b5650;
+  width: 115px;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 8px;
+  font-family: "Averia Sans Libre", sans-serif;
+  margin-bottom: 15px;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+  color: white;
+  transition: 220ms ease;
+  font-weight: bolder;
+}
+
+.nav-link:focus {
+  transform: scale(0.95);
+  color: aqua;
+}
+
+.jumbotron {
+  padding-top: 17rem;
+}
+
+.steps {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about__setion-thumbnail {
+  height: 240px;
+  object-fit: cover;
+}
+
+.about__content-width {
+  max-width: 456px;
+  margin: 0 auto;
+}
+
+.service {
+  position: relative;
+  overflow: hidden;
+}
+
+.service .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 20, 51, 0.8);
+  padding: 30px;
+  display: flex;
+  align-items: flex-end;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+
+.service img {
+  transition: all 0.4s ease;
+}
+
+.service:hover .overlay {
+  opacity: 1;
+}
+
+.service:hover img {
+  transform: scale(1.1);
+}
+
+/* NAVBAR */
+
+.navbar {
+  height: 90px;
+  z-index: 1;
+
+
+}
+.nav-link {
+  color: #e7dad2;
+}
+.navbar-bg-img {
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/navbar-bg.png?raw=true);
+}
+.img {
+  width: 100px;
+  height: auto;
+}
+
+/* HERO */
+
+.hero-bg-img {
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/home-bg-img.png?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+#hero h1{
+  letter-spacing: 2px;
+}
+#content {
+  color: #e7dad2;
+}
+
+
+/* ABOUT US */
+
+.about-us-bg-img {
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/about-us-bg-img.jpg?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.aboutus {
+  color: #e7dad2;
+  
+}
+#text-about-us h1{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+#text-about-us p{
+  text-align: justify;
+}
+
+/* SERVICE */
+
+.service{
+  margin: 10px;
+}
+
+.service-bg-img {
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/service-bg-img.png?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+#portfolio h1 {
+  color: #e7dad2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+
+
+/* carousel */
+
+/* Testimonials */
+
+.testimonials-bg-img {
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/testimonials-bg-img.png?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+}
+#testimonials h1{
+  color: #e7dad2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+#testimonials .carousel-control-prev {
+  position: absolute;
+  left: -120px !important;
+}
+
+#testimonials .carousel-control-next {
+  position: absolute;
+  right: -120px !important;
+}
+
+/* #testimonials .carousel-control-prev-icon {
+  background-color: #5f534c;
+}
+
+#testimonials .carousel-control-next-icon {
+  background-color: #5f534c;
+} */
+
+
+/* FAQ */
+
+.accordion-body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#faq {
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/faq-bg-img.png?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+}
+#faq h1{
+  color: #e7dad2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+#faq button{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* CONTACT US */
+
+#about-us {
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/faq-bg-img.png?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+#about-us h1{
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #e7dad2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Collab */
+
+#collab-bg-img{
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/collab-bg-img.png?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+#collab-bg-img h2{
+  color: #e7dad2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#collab-bg-img p{
+  color: #e7dad2;
+}
+
+.intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.intro p {
+  margin-bottom: 0;
+}
+
+.people {
+  padding: 50px 0;
+  cursor: pointer;
+}
+.item {
+  margin-bottom: 30px;
+}
+
+.item .box {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(65, 65, 65, 0.705);
+  transition: 250ms opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 80px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  font-family: "Inter Tight", sans-serif;
+}
+
+.item:hover .cover {
+  opacity: 1;
+}
+
+.item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bbd8fb;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.social {
+  font-size: 18px;
+}
+
+.social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+.social a:hover {
+  opacity: 1;
+}
+
+/* Footer ngehe */
+
+#footer-bg-img{
+  background-image: url(https://github.com/trainerfe5gamelab/miniproject-bootstrap-k5/blob/main/asset/img/footer-bg-img-1.png?raw=true);
+  background-repeat: no-repeat;
+  width: 100%;
+  
+  background-size: cover;
+
+}
+
+footer {
+  position: relative;
+  width: auto;
+  background-color: #414141;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff5f4;
+  bottom: 0;
+}
+
+.social-icons a {
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer i {
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer a {
+  color: #fff5f4;
+  text-decoration: none;
+}
+
+footer i:hover {
+  color: #6b5650;
+  transform: scale(1.1);
+  transition: 100ms;
+}
+
